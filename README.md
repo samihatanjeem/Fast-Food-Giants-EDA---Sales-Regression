@@ -71,10 +71,15 @@ Predicted sales values from the regression closely align with actual values, dem
 ---
 
 
-## 🧠 Key Insights
-- Companies with fewer stores may outperform in revenue
-- Average meal prices and store density show interesting correlations
-- Some chains achieve high revenue with fewer locations
+## 💡 Key Insights
+
+- **McDonald's** dominates the U.S. fast food market with over $40B in annual systemwide sales, followed by **Starbucks** and **Chick-fil-A**.
+- Category leaders are clear: McDonald's (burgers), KFC (chicken), Starbucks (coffee), and Pizza Hut (pizza).
+- **Total units** have a strong positive correlation (r ≈ 0.71) with systemwide sales, though some brands like Chick-fil-A achieve high revenue with fewer stores.
+- Most chains have average sales per unit between $1.08M and $2.13M, with a mean of $1.86M.
+- Linear regression shows that both store count and average unit sales significantly contribute to predicting total revenue (R² = 0.64).
+- Predicted vs actual sales plots confirm that the model captures market trends effectively, with most points lying close to the regression line.
+
 
 ## 🧪 Techniques Used
 - Data cleaning and preprocessing
